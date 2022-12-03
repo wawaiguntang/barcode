@@ -1,0 +1,84 @@
+[
+  {
+    "module": "Dashboard",
+    "permission": [
+      {
+        "permission": "RDASH",
+        "description": "See dashboard"
+      }
+    ]
+  },
+  {
+    "module": "Management User",
+    "permission": [
+      {
+        "permission": "RU",
+        "description": "See user "
+      },
+      {
+        "permission": "CU",
+        "description": "Create user "
+      },
+      {
+        "permission": "UU",
+        "description": "Update user "
+      },
+      {
+        "permission": "DU",
+        "description": "Delete user "
+      },
+      {
+        "permission": "RR",
+        "description": "See role "
+      },
+      {
+        "permission": "CR",
+        "description": "Create role "
+      },
+      {
+        "permission": "UR",
+        "description": "Update role "
+      },
+      {
+        "permission": "DR",
+        "description": "Delete role "
+      },
+      {
+        "permission": "RRU",
+        "description": "See role of user "
+      },
+      {
+        "permission": "CRU",
+        "description": "Add role to user "
+      },
+      {
+        "permission": "DRU",
+        "description": "Delete role from user "
+      },
+      {
+        "permission": "RUP",
+        "description": "See special permission of user "
+      },
+      {
+        "permission": "CUP",
+        "description": "Add special permission to user "
+      },
+      {
+        "permission": "DUP",
+        "description": "Delete special permission from user "
+      },
+      {
+        "permission": "RRP",
+        "description": "See permission of role "
+      },
+      {
+        "permission": "CRP",
+        "description": "Add permission to role "
+      },
+      {
+        "permission": "DRP",
+        "description": "Delete permission from role "
+      }
+    ]
+  }
+]
