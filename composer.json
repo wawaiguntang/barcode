@@ -9,7 +9,9 @@
     ],
     "require": {
         "phpoffice/phpspreadsheet": "^1.24",
-        "dompdf/dompdf": "^2.0"
+        "dompdf/dompdf": "^2.0",
+        "setasign/fpdf": "^1.8",
+        "mpdf/mpdf": "^8.1"
     },
     "config": {
         "platform": {

@@ -80,5 +80,78 @@
         "description": "Delete permission from role "
       }
     ]
+  },
+  {
+    "module": "Barcode",
+    "permission": [
+      {
+        "permission": "RSUPPLIER",
+        "description": "See supplier"
+      },
+      {
+        "permission": "CSUPPLIER",
+        "description": "Create supplier"
+      },
+      {
+        "permission": "USUPPLIER",
+        "description": "Update supplier"
+      },
+      {
+        "permission": "DSUPPLIER",
+        "description": "Delete supplier"
+      },
+      {
+        "permission": "RCATEGORY",
+        "description": "See category"
+      },
+      {
+        "permission": "CCATEGORY",
+        "description": "Create category"
+      },
+      {
+        "permission": "UCATEGORY",
+        "description": "Update category"
+      },
+      {
+        "permission": "DCATEGORY",
+        "description": "Delete category"
+      },
+      {
+        "permission": "RUNIT",
+        "description": "See unit"
+      },
+      {
+        "permission": "CUNIT",
+        "description": "Create unit"
+      },
+      {
+        "permission": "UUNIT",
+        "description": "Update unit"
+      },
+      {
+        "permission": "DUNIT",
+        "description": "Delete unit"
+      },
+      {
+        "permission": "RPRODUCT",
+        "description": "See product"
+      },
+      {
+        "permission": "CPRODUCT",
+        "description": "Create product"
+      },
+      {
+        "permission": "UPRODUCT",
+        "description": "Update product"
+      },
+      {
+        "permission": "DPRODUCT",
+        "description": "Delete product"
+      },
+      {
+        "permission": "PRINTPRODUCT",
+        "description": "Print barcode product"
+      }
+    ]
   }
 ]

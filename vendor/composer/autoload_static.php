@@ -9,9 +9,14 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'setasign\\Fpdi\\' => 14,
+        ),
         'Z' => 
         array (
             'ZipStream\\' => 10,
@@ -25,6 +30,7 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
@@ -32,8 +38,13 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         'M' => 
         array (
             'MyCLabs\\Enum\\' => 13,
+            'Mpdf\\' => 5,
             'Matrix\\' => 7,
             'Masterminds\\' => 12,
+        ),
+        'H' => 
+        array (
+            'Http\\Message\\' => 13,
         ),
         'F' => 
         array (
@@ -42,6 +53,7 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         'D' => 
         array (
             'Dompdf\\' => 7,
+            'DeepCopy\\' => 9,
         ),
         'C' => 
         array (
@@ -50,6 +62,10 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
     );
 
     public static $prefixDirsPsr4 = array (
+        'setasign\\Fpdi\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/setasign/fpdi/src',
+        ),
         'ZipStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
@@ -70,6 +86,10 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
@@ -87,6 +107,10 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         array (
             0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
         ),
+        'Mpdf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mpdf/mpdf/src',
+        ),
         'Matrix\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
@@ -95,6 +119,10 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
+        'Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
+        ),
         'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phenx/php-font-lib/src/FontLib',
@@ -102,6 +130,10 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
         'Dompdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
+        ),
+        'DeepCopy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
         'Complex\\' => 
         array (
@@ -122,6 +154,7 @@ class ComposerStaticInitaac735e0f89915b6c3aea72cab69f75a
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Dompdf\\Cpdf' => __DIR__ . '/..' . '/dompdf/dompdf/lib/Cpdf.php',
+        'FPDF' => __DIR__ . '/..' . '/setasign/fpdf/fpdf.php',
         'Stringable' => __DIR__ . '/..' . '/myclabs/php-enum/stubs/Stringable.php',
     );
 

@@ -31,202 +31,28 @@
       "icon": "<i class='fa fa-box-open'></i>",
       "menu": [
         {
-          "text": "Armada",
+          "text": "Supplier",
           "icon": "<i class='fa fa-truck'></i>",
-          "url": "master/armada",
-          "access": ["BRMA", "BRMAJ"]
+          "url": "barcode/supplier",
+          "access": ["RSUPPLIER"]
         },
         {
-          "text": "Barang",
+          "text": "Category",
           "icon": "<i class='fa fa-box-open'></i>",
-          "url": "master/barang",
-          "access": ["DRB", "DRBS", "DRBK"]
-        },
-        {
-          "text": "Jabatan",
-          "icon": "<i class='fa fa-stairs'></i>",
-          "url": "master/jabatan",
-          "access": ["BRMJ"]
-        },
-        {
-          "text": "Agen Sub",
-          "icon": "<i class='fa fa-object-group'></i>",
-          "url": "master/agen_sub",
-          "access": ["BRMJ"]
-        },
-        {
-          "text": "Pelanggan",
-          "icon": "<i class='fa fa-users'></i>",
-          "url": "master/pelanggan",
-          "access": ["BRMP"]
+          "url": "barcode/category",
+          "access": ["RCATEGORY"]
         },
         {
           "text": "Unit",
-          "icon": "<i class='fa fa-users-rectangle'></i>",
-          "url": "master/unit",
-          "access": ["BRMU"]
+          "icon": "<i class='fa fa-stairs'></i>",
+          "url": "barcode/unit",
+          "access": ["RUNIT"]
         },
         {
-          "text": "Pendidikan",
-          "icon": "<i class='fa fa-graduation-cap'></i>",
-          "url": "master/pendidikan",
-          "access": ["DRP"]
-        },
-        {
-          "text": "Rekening Bank",
-          "icon": "<i class='fa fa-bank'></i>",
-          "url": "master/rekening_bank",
-          "access": ["DRRB"]
-        },
-        {
-          "text": "Supplier",
-          "icon": "<i class='fa fa-people-carry-box'></i>",
-          "url": "master/supplier",
-          "access": ["DRS"]
-        },
-        {
-          "text": "Staf",
-          "icon": "<i class='fa fa-clipboard-user'></i>",
-          "url": "master/staf",
-          "access": ["DRST"]
-        },
-        {
-          "text": "Ekspedisi",
-          "icon": "<i class='fa fa-truck'></i>",
-          "url": "master/ekspedisi",
-          "access": ["DREKS"]
-        }
-      ]
-    },
-    {
-      "code": "tgh",
-      "header": "Hutang / Piutang",
-      "icon": "<i class='fa fa-stairs'></i>",
-      "menu": [
-        {
-          "text": "Ekspedisi",
-          "icon": "<i class='fa fa-truck'></i>",
-          "url": "tagihan/ekspedisi",
-          "access": ["DRTEKS"]
-        },
-        {
-          "text": "Bon Staf",
-          "icon": "<i class='fa fa-exchange' aria-hidden='true'></i>",
-          "url": "tagihan/bon_staf",
-          "access": ["BRMJ"]
-        },
-        {
-          "text": "Hutang Penjualan",
-          "icon": "<i class='fa fa-credit-card-alt'></i>",
-          "url": "tagihan/hutang_penjualan",
-          "access": ["BRHTPEN"]
-        },
-        {
-          "text": "Hutang Pembelian",
-          "icon": "<i class='fa fa-cart-plus'></i>",
-          "url": "tagihan/hutang_pembelian",
-          "access": ["BRHTPEM"]
-        }
-      ]
-    },
-
-    {
-      "code": "trc",
-      "header": "Transaksi",
-      "icon": "<i class='fa fa-cart-plus'></i>",
-      "menu": [
-        {
-          "text": "Penjualan",
-          "icon": "<i class='fa fa-shopping-cart'></i>",
-          "url": "transaksi/penjualan",
-          "access": ["DRTP"]
-        },
-        {
-          "text": "Pembelian",
-          "icon": "<i class='fa fa-cart-plus'></i>",
-          "url": "transaksi/pembelian",
-          "access": ["DRTPEMBELIAN"]
-        },
-        {
-          "text": "Retur Penjualan",
-          "icon": "<i class='fa fa-undo'></i>",
-          "url": "transaksi/retur_penjualan",
-          "access": ["BRTRPJ"]
-        },
-        {
-          "text": "Retur Pembelian",
-          "icon": "<i class='fa fa-redo'></i>",
-          "url": "transaksi/retur_pembelian",
-          "access": ["BRTRP"]
-        }
-      ]
-    },
-    {
-      "code": "laporan",
-      "header": "Laporan",
-      "icon": "<i class='fa line-chart fa-line-chart'></i>",
-      "menu": [
-        {
-          "text": "Penjualan",
-          "icon": "<i class='fa line-chart fa-line-chart'></i>",
-          "url": "laporan/penjualan",
-          "access": ["DRTP"]
-        },
-        {
-          "text": "Pembelian",
-          "icon": "<i class='fa line-chart fa-line-chart'></i>",
-          "url": "laporan/pembelian",
-          "access": ["DRTP"]
-        }
-      ]
-    },
-    {
-      "code": "keuangan",
-      "header": "Keuangan",
-      "icon": "<i class='fa line-chart fa-money-bill'></i>",
-      "menu": [
-        {
-          "text": "Daftar Akun",
-          "icon": "<i class='fa line-chart fa-list-ol'></i>",
-          "url": "keuangan/akun",
-          "access": ["KEURAKUN"]
-        },
-        {
-          "text": "Jenis Masuk Keluar",
-          "icon": "<i class='fa line-chart fa-arrows-left-right'></i>",
-          "url": "keuangan/jenis",
-          "access": ["KEURKJM", "KEURKJK"]
-        },
-        {
-          "text": "Kas Masuk Keluar",
-          "icon": "<i class='fa line-chart fa-arrows-turn-to-dots'></i>",
-          "url": "keuangan/kas_keluar_masuk",
-          "access": ["KEURKM", "KEURKK"]
-        },
-        {
-          "text": "Kas",
-          "icon": "<i class='fa line-chart fa-wallet'></i>",
-          "url": "keuangan/kas",
-          "access": ["KEURK"]
-        },
-        {
-          "text": "Mutasi Kas",
-          "icon": "<i class='fa line-chart fa-arrows-rotate'></i>",
-          "url": "keuangan/mutasi_kas",
-          "access": ["KEURMK"]
-        },
-        {
-          "text": "Laporan",
-          "icon": "<i class='fa line-chart fa-book'></i>",
-          "url": "keuangan/laporan_keuangan",
-          "access": [
-            "KEURJURNAL",
-            "KEURNS",
-            "KEURLLR",
-            "KEURLPM",
-            "KEURLN",
-            "KEURBB"
-          ]
+          "text": "Product",
+          "icon": "<i class='fa fa-archive'></i>",
+          "url": "barcode/product",
+          "access": ["RPRODUCT"]
         }
       ]
     }

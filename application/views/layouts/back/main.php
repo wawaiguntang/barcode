@@ -8,7 +8,7 @@ $profile = getProfileWeb();
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url() ?>assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/img/favicon.ico">
+    <link rel="icon" type="image/png" href="<?php echo base_url($profile['icon']) ?>">
     <title>
         <?php echo $profile['title'] ?>
     </title>
@@ -259,7 +259,7 @@ $profile = getProfileWeb();
                                 © <script>
                                     document.write(new Date().getFullYear())
                                 </script>,
-                                made with <i class="fa fa-heart"></i> by
+                                made with <i class="fa fa-heart"></i> by <a href="http://newus.id">Newus Technology</a>
                             </div>
                         </div>
                     </div>
